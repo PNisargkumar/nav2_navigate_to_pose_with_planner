@@ -20,8 +20,6 @@ add_compile_options(-Wno-error=deprecated)
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/PoseStampedWithPlanner.msg"
   "action/NavigateToPoseWithPlanner.action"
-  "action/FollowWaypointsWithPlanners.action"
-  "action/FollowGPSWaypointsWithPlanners.action"
   DEPENDENCIES builtin_interfaces geometry_msgs std_msgs action_msgs nav_msgs geographic_msgs nav2_msgs
 )
 

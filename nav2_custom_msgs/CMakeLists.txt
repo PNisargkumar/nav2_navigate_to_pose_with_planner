@@ -9,7 +9,7 @@ find_package(nav2_msgs REQUIRED)
 find_package(geometry_msgs REQUIRED)
 find_package(rosidl_default_generators REQUIRED)
 find_package(std_msgs REQUIRED)
-find_package(geographic_msgs)
+find_package(geographic_msgs REQUIRED)
 find_package(action_msgs REQUIRED)
 
 nav2_package()
